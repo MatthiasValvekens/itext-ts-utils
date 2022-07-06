@@ -11,5 +11,5 @@ Add this repository as a Git submodule to your project, and declare an `:itext-t
 
 (c) 2022 Matthias Valvekens
 
-Provided under the terms of the AGPL, see [LICENSE.md](LICENSE.md). Different conditions may apply for font resources.
+Provided under the terms of the AGPL, see [LICENSE.md](LICENSE.md).
 
