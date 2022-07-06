@@ -1,0 +1,23 @@
+plugins {
+    id 'java-library'
+}
+
+group 'be.mvalvekens'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets{
+    example {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
+dependencies {
+    api 'com.itextpdf:kernel:7.2.3'
+    api 'com.itextpdf:layout:7.2.3'
+    implementation 'org.commonmark:commonmark:0.19.0'
+}
