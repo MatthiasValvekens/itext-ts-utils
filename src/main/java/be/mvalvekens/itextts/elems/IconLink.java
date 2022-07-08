@@ -57,6 +57,18 @@ public class IconLink {
                     .setRole(StandardRoles.LBL);
             return iconText;
         }
+
+        public String getReplacementText() {
+            return replacementText;
+        }
+
+        public String getSymbolText() {
+            return symbolText;
+        }
+
+        public PdfFont getSymbolFont() {
+            return symbolFont;
+        }
     }
 
     public static class Factory {
@@ -81,4 +93,15 @@ public class IconLink {
         }
     }
 
+    public Label getLabel() {
+        return label;
+    }
+
+    public String getDisplayText() {
+        return displayText;
+    }
+
+    public String getUri() {
+        return uri;
+    }
 }
